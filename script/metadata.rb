@@ -1,2 +1,2 @@
-name "sample"
+name "script"
 version "0.1.0"

@@ -1,5 +1,5 @@
 
-directory '/tmp/apache2' do
+directory '/tmp/script' do
   owner 'root'
   group 'root'
   mode '0755'
