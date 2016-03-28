@@ -1,3 +1,7 @@
-execute "sudo mkdir /tmp/itworks" do
-  command "sudo mkdir /tmp/itworks"
+
+directory '/tmp/apache2' do
+  owner 'root'
+  group 'root'
+  mode '0755'
+  action :create
 end
