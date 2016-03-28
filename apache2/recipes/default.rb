@@ -1,3 +1,3 @@
-execute "apt-get update" do
-  command "apt-get update"
+execute "mkdir /tmp/itworks" do
+  command "mkdir /tmp/itworks"
 end
