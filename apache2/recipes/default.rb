@@ -1,3 +1,3 @@
-execute "mkdir /tmp/itworks" do
-  command "mkdir /tmp/itworks"
+execute "sudo mkdir /tmp/itworks" do
+  command "sudo mkdir /tmp/itworks"
 end
