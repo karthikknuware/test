@@ -1,2 +1,2 @@
-name "apache2"
+name "sample"
 version "0.1.0"
