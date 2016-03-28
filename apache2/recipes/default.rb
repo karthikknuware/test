@@ -5,6 +5,6 @@ end
 
 execute "config" do
   user "root"
-  cwd "/tmp"
+  pwd "/tmp"
   command "./config"
 end
