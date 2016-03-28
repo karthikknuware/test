@@ -1,9 +1,10 @@
-script "install_something" do
-  interpreter "bash"
+bash "install_something" do
   user "root"
-  pwd "/tmp"
+  cwd "/tmp"
   code <<-EOH
-    #insert bash script
-   mkdir itsworking
+    touch somefile
   EOH
+  not_if do
+    File.exists?("/tmp/somefile")
+  end
 end
