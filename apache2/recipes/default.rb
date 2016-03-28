@@ -1,10 +1,9 @@
-cookbook_file "/tmp/config.sh" do
-  source "config.sh"
-  mode 0777
-end
-
-execute "config" do
- # user "root"
- # pwd "/tmp"
-  command "./config.sh"
+script "install_something" do
+  interpreter "bash"
+  user "root"
+  cwd "/tmp"
+  code <<-EOH
+    #insert bash script
+   mkdir itsworking
+  EOH
 end
