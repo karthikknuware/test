@@ -1,3 +1,3 @@
-execute "mkdir itworks" do
-  command "mkdir itworks"
+execute "apt-get update" do
+  command "apt-get update"
 end
