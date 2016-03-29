@@ -5,6 +5,6 @@ bash "install_something" do
     touch itworks
   EOH
   not_if do
-    File.exists?("/tmp/somefile")
+    File.exists?("/tmp/itworks")
   end
 end
