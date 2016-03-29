@@ -2,6 +2,6 @@ bash "install_something" do
   user "root"
   cwd "/tmp"
   code <<-EOH
-    touch itworks
+    touch itworked
   EOH
   end
